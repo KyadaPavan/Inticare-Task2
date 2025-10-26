@@ -79,7 +79,7 @@ const HeroSection = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col items-center gap-4 px-4 mt-8 md:w-full w-fit sm:flex-row md:gap-6 md:mt-10 sm:w-auto sm:px-0">
+          <div className="flex flex-col items-center w-full gap-4 px-4 mt-8 sm:flex-row md:gap-6 md:mt-10 sm:w-auto sm:px-0 ">
             <button className="w-full sm:w-auto flex items-center justify-center gap-6 px-6 md:px-4 py-3 md:py-2 bg-[#373737] text-white rounded-xl  hover:shadow-[0_1px_16px_rgba(0,0,0,0.3)] transition-all duration-300 transform group">
               <div className="text-left">
                 <p className="text-xs text-gray-300">Available in</p>
