@@ -6,7 +6,6 @@ const Footer = () => {
     >
       <div className="px-4 mx-auto max-w-[95%] w-full sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-5 lg:gap-8">
-          {/* Logo and Description */}
           <div>
             <div className="mb-6">
               <img src="/Logo.svg" alt="LeadCRM.IO" className="h-10 md:h-12" />
@@ -212,7 +211,7 @@ const Footer = () => {
               </li>
             </ul>
             {/* Chrome Extension Button */}
-            <div className="flex justify-end mt-8 md:mt-12">
+            <div className="flex mt-8 md:justify-end md:mt-12">
               <button className="flex items-center w-40 gap-2 px-4 py-1 text-sm font-medium text-left text-white transition-all duration-300 bg-[#242424] rounded-2xl hover:bg-gray-800 md:text-base">
                 Available in Chrome
                 <img src="/ChromeLogo.svg" alt="Chrome" className="w-6 h-6" />

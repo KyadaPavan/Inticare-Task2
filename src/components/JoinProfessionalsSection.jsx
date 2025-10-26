@@ -14,7 +14,7 @@ const JoinProfessionalsSection = () => {
 
       <div className="relative px-4 mx-auto sm:px-6 lg:px-8">
         <div className="mb-8 text-left lg:mx-10">
-          <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl md:text-3xl">
+          <h2 className="text-xl font-semibold text-gray-900 sm:text-3xl md:text-3xl">
             Join Thousands of Professionals Using LeadCRM
           </h2>
         </div>

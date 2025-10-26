@@ -85,7 +85,7 @@ const HowItWorksSection = () => {
                 className="relative flex flex-col items-center text-center"
               >
                 {index < steps.length - 1 && (
-                  <div className="absolute w-24 h-16 pointer-events-none left-1/2 -bottom-8 lg:hidden">
+                  <div className="absolute hidden w-24 h-16 pointer-events-none left-1/2 -bottom-8 lg:hidden">
                     <svg
                       className="w-full h-full"
                       viewBox="0 0 100 100"
